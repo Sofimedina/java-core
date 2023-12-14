@@ -1,6 +1,4 @@
-package skm.javacore;
-
-import java.util.logging.StreamHandler;
+package skm.javacore.Collections.Lists;
 
 public class Students implements Comparable<Students>{
 

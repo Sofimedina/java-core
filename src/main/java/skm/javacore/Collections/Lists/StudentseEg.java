@@ -1,4 +1,4 @@
-package skm.javacore;
+package skm.javacore.Collections.Lists;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -15,7 +15,7 @@ class DescStudentsComparator implements Comparator<Students>{
 
 public class StudentseEg {
 
-    public void run(){
+    public static void main(String[] args) {
         List<Students> students=new ArrayList<>();
         students.add(new Students(2,"Kari"));
         students.add(new Students(1,"Zelda"));
@@ -29,5 +29,6 @@ public class StudentseEg {
         students.sort(new DescStudentsComparator());
         System.out.println("Students DESC:\t"+students);
     }
+
 
 }
