@@ -1,4 +1,4 @@
-package skm.javacore;
+package skm.javacore.Lists;
 
 import java.util.ArrayList;
 import java.util.Collections;
