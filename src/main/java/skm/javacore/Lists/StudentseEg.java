@@ -15,7 +15,7 @@ class DescStudentsComparator implements Comparator<Students>{
 
 public class StudentseEg {
 
-    public void run(){
+    public static void main(String[] args){
         List<Students> students=new ArrayList<>();
         students.add(new Students(2,"Kari"));
         students.add(new Students(1,"Zelda"));

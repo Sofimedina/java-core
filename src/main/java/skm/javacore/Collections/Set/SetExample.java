@@ -14,6 +14,8 @@ public class SetExample {
         Set<Character> charactersUniqueOrderIns=new LinkedHashSet<>(characters);
         System.out.println(charactersUniqueOrder);
         System.out.println(charactersUniqueOrderIns);
+
+
     }
 
 }
